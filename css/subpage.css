@@ -1,0 +1,56 @@
+/*모바일용 css*/
+/*모바일 - 서브해더 영역 css*/
+.sub_header_section{
+    order: 3;
+    padding: 48px 0;
+    background-color: #219af7;
+    text-align: center;
+}
+.sub_header_section h2{
+    margin-bottom: 12px;
+    font-size: 1.313em;
+    color: white;
+}
+.breadcrum_list li{
+    display: inline-block;
+    font-size: 0.813em;
+    color: white;
+}
+
+/*모바일 - 컨텐츠영역 css*/
+.content_section{
+    order: 4;
+    padding: 20px;
+    background: white;
+}
+
+/*모바일 - footer영역 css*/
+.footer{
+    order: 5;
+}
+
+/*태블릿 css*/
+@media all and (min-width: 768px) {
+    .sub_header_section{
+        width: 100%;
+    }
+
+    .content_section{
+        padding: 40px;
+        
+    }
+}
+
+/*pc용 css*/
+@media all and (min-width: 968px) {
+    .sub_header_section{
+        order: 2;
+    }
+    .content_section{
+        order: 3;
+        padding: 60px;
+    }
+    .footer{
+        order: 4;
+    }
+}

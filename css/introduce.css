@@ -1,0 +1,22 @@
+article img{
+    width: 200px;
+    height: 200px;
+}
+
+.contnet_row_1 img{
+    width: 220px;
+    height: 220px;
+}
+
+
+/* 모바일용 CSS*/
+
+/* 태블릿용 CSS */
+@media all and (min-width: 768px) {
+
+}
+
+/* PC용 CSS */
+@media all and (min-width: 960px) {
+
+}
